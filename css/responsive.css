@@ -1,0 +1,537 @@
+/* ===============================
+    extra small device start
+============================= */
+
+@media (max-width:575px){
+
+    /* ========== navbar css ============= */
+    .navbar .navbar-brand{
+        position: unset !important;
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;
+        padding: 0 20px !important;
+    }
+    
+    .navbar .navbar-brand img{
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;    
+    }
+    
+    .navbar .navbar-toggler{
+        border-color: #fff;
+        margin-right: 5px;
+    }
+    
+    .navbar .navbar-toggler i{
+        color: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before{
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before{
+        width: 100%;
+    }
+    /* ========== navbar css ============= */
+    
+    
+    /* ========== banner css ============= */
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after,
+    #banner .bg1 h1::before,
+    #banner .bg1 p::before,
+    #banner .bg1 p::after{
+        display: none;
+    }
+
+    #banner .banner-item h4{
+        font-size: 24px;
+    }
+
+    #banner .banner-item h1{
+        font-size: 48px;
+    }
+
+    #banner .banner-item p{
+        padding: 0;
+    }
+    /* ========== banner css ============= */
+
+
+    /* ========== about css ============= */
+    #about{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #about .about-details p{
+        padding: 0;
+    }
+
+    #about .about-image{
+        margin-top: 30px;
+    }
+    /* ========== about css ============= */
+
+
+    /* ========== gallery css ============= */
+    #gallery {
+        padding-bottom: 50px;
+    }
+    /* ========== gallery css ============= */
+
+
+    /* ========== team css ============= */
+    #team{
+        padding-bottom: 50px;
+    }
+
+    #team .team-member{
+        margin-top: 35px;
+    }
+    /* ========== team css ============= */
+
+
+    /* ========== testimonial css ============= */
+    #testimonial{
+        padding-bottom: 50px;
+    }
+    /* ========== testimonial css ============= */
+    
+    
+    /* ========== membership css ============= */
+    #membership{
+        padding-bottom: 50px;
+    }
+
+    #membership .membership-item .member-price h3 span{
+        font-size: 40px;
+    }
+    /* ========== membership css ============= */
+
+
+    /* ========== funfact css ============= */
+    #funfact{
+        padding-bottom: 20px;
+    }
+
+    #funfact .fun-item {
+        margin-bottom: 20px;
+    }
+    /* ========== funfact css ============= */
+
+
+    /* ========== routine css ============= */
+    #routine{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #routine .nav-tabs .nav-item{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    #routine .nav-tabs .nav-item:first-child{
+        margin-top: 10px;
+    }
+
+    #routine .nav-tabs .nav-item:last-child{
+        margin-bottom: 0;
+    }
+
+    #routine .main-routine ul li{
+        width: 100%;
+    }
+    /* ========== routine css ============= */ 
+
+
+    /* ========== footer css ============= */ 
+    footer .footer-item .opening-hours,
+    footer .footer-item .twitter-feed,
+    footer .footer-item .footer-gallery{
+        margin-bottom: 30px !important;
+    }
+    /* ========== footer css ============= */ 
+
+}
+/* =============================
+    extra small device end
+============================ */
+
+
+/* =============================
+    small device start
+============================ */
+
+@media(min-width:576px) and (max-width:767px){
+
+    /* ========== navbar css ============= */  
+    .navbar .navbar-brand{
+        position: unset !important;
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;
+        padding: 0 20px !important;
+    }
+    
+    .navbar .navbar-brand img{
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;    
+    }
+    
+    .navbar .navbar-toggler{
+        border-color: #e23e38;
+        margin-right: 5px;
+    }
+    
+    .navbar .navbar-toggler i{
+        color: #e23e38;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before{
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before{
+        width: 100%;
+    }
+    /* ========== navbar css ============= */   
+
+
+    /* ========== banner css ============= */
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after,
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after,
+    #banner .bg1 p::before,
+    #banner .bg1 p::after{
+        display: none;
+    }
+
+    #banner .banner-item h4{
+        font-size: 26px;
+    }
+
+    #banner .banner-item h1{
+        font-size: 52px;
+    }
+
+    #banner .banner-item p{
+        padding: 0;
+    }
+    /* ========== banner css ============= */
+
+
+    /* ========== about css ============= */
+    #about{
+        padding: 50px 0;
+    }
+
+    #about .about-image{
+        margin-top: 30px;
+    }
+    /* ========== about css ============= */
+
+
+    /* ========== gallery css ============= */
+    #gallery {
+        padding-bottom: 50px;
+    }
+    /* ========== gallery css ============= */
+
+
+    /* ========== team css ============= */
+    #team{
+        padding-bottom: 50px;
+    }
+
+    #team .team-member{
+        margin-top: 38px;
+    }
+    /* ========== team css ============= */
+
+
+    /* ========== testimonial css ============= */
+    #testimonial{
+        padding-bottom: 50px;
+    }
+
+    #testimonial{
+        padding-bottom: 30px;
+    }
+    /* ========== testimonial css ============= */
+
+
+    /* ========== membership css ============= */
+    #membership{
+        padding-bottom: 50px;
+    }
+
+    #membership .membership-item .member-price h3 span{
+        font-size: 45px;
+    }
+    /* ========== membership css ============= */
+
+
+    /* ========== funfact css ============= */
+    #funfact .fun-item {
+        margin: 10px;
+    }
+    /* ========== funfact css ============= */
+
+
+    /* ========== routine css ============= */
+    #routine{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #routine .nav-tabs .nav-item{
+        width: 49%;
+        padding: 0;
+        margin-bottom: 5px;
+        margin-right: 2px;
+    }
+
+    #routine .nav-tabs{
+       margin-top: 10px;
+    }
+
+    #routine .nav-tabs .nav-item:last-child{
+        margin-bottom: 0;
+    }
+
+    #routine .main-routine ul li{
+        width: 50%;
+    }
+    /* ========== routine css ============= */
+
+
+    /* ========== footer css ============= */ 
+    footer .footer-item .opening-hours,
+    footer .footer-item .twitter-feed,
+    footer .footer-item .footer-gallery{
+        margin-bottom: 30px !important;
+    }
+    /* ========== footer css ============= */ 
+
+}
+/* =============================
+    small device end
+============================ */
+
+
+/* =============================
+    medium device start
+============================ */
+
+@media(min-width:768px) and (max-width:991px){
+
+    /* ========== navbar css ============= */  
+     .navbar .navbar-brand{
+        position: unset !important;
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;
+        padding: 0 20px !important;
+    }
+    
+    .navbar .navbar-brand img{
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;    
+    }
+    
+    .navbar .navbar-toggler{
+        border-color: #e23e38;
+        margin-right: 5px;
+    }
+    
+    .navbar .navbar-toggler i{
+        color: #e23e38;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before{
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before{
+        width: 100%;
+    }
+    /* ========== navbar css ============= */   
+
+
+    /* ========== banner css ============= */
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after,
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after,
+    #banner .bg1 p::before,
+    #banner .bg1 p::after{
+        display: none;
+    }
+
+    #banner .banner-item h4{
+        font-size: 26px;
+    }
+
+    #banner .banner-item h1{
+        font-size: 52px;
+    }
+
+    #banner .banner-item p{
+        padding: 0;
+    }
+    /* ========== banner css ============= */
+
+
+    /* ========== about css ============= */
+    #about{
+        padding: 50px 0;
+    }
+
+    #about .about-image{
+        margin-top: 30px;
+    }
+    /* ========== about css ============= */
+
+
+    /* ========== gallery css ============= */
+    #gallery {
+        padding-bottom: 50px;
+    }
+    /* ========== gallery css ============= */
+
+
+    /* ========== team css ============= */
+    #team{
+        padding-bottom: 50px;
+    }
+
+    #team .team-member{
+        margin-top: 38px;
+    }
+    /* ========== team css ============= */
+
+
+    /* ========== testimonial css ============= */
+    #testimonial{
+        padding-bottom: 50px;
+    }
+
+    #testimonial{
+        padding-bottom: 30px;
+    }
+    /* ========== testimonial css ============= */
+
+
+    /* ========== membership css ============= */
+    #membership{
+        padding-bottom: 50px;
+    }
+
+    #membership .membership-item .member-price h3 span{
+        font-size: 45px;
+    }
+    /* ========== membership css ============= */
+
+
+    /* ========== funfact css ============= */
+    #funfact .fun-item {
+        margin: 10px;
+    }
+    /* ========== funfact css ============= */
+
+
+    /* ========== routine css ============= */
+    #routine{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #routine .nav-tabs{
+       margin-top: 10px;
+    }
+
+    #routine .nav-tabs .nav-item:last-child{
+        margin-bottom: 0;
+    }
+
+    #routine .main-routine ul li{
+        width: 50%;
+    }
+    /* ========== routine css ============= */
+
+
+    /* ========== footer css ============= */ 
+    footer .footer-item .opening-hours,
+    footer .footer-item .twitter-feed,
+    footer .footer-item .footer-gallery{
+        margin-bottom: 30px !important;
+    }
+
+    footer .footer-main{
+        padding-bottom: 0;
+    }
+    /* ========== footer css ============= */
+}
+/* =============================
+medium device end
+============================ */
+
+
+/* =============================
+    large device start
+============================ */
+
+@media(min-width:992px) and (max-width:1999px){
+    
+    /* ========== banner css ============= */
+    /* #banner .bg1 h4::before,
+    #banner .bg1 h4::after,
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after,
+    #banner .bg1 p::before,
+    #banner .bg1 p::after{
+        display: none;
+    } */
+
+    /* ========== banner css ============= */
+    
+}
+/* =============================
+    large device end
+============================ */
